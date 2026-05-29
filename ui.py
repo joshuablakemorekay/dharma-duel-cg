@@ -861,10 +861,14 @@ class UI:
                 dot_y = center_y + dot_radius * math.sin(angle)
                 pygame.draw.circle(self.screen, Colors.GOLD, (int(dot_x), int(dot_y)), 5)
             
-            # Draw "Dharma Wheel" text below
-            dharma_text = self.header_font.render("Dharma Wheel", True, Colors.CREAM)
+            # Draw "DharmaDuel" title text below, with "CG" centred beneath it
+            dharma_text = self.header_font.render("DharmaDuel", True, Colors.CREAM)
             dharma_rect = dharma_text.get_rect(center=(center_x, center_y + 110))
             self.screen.blit(dharma_text, dharma_rect)
+
+            cg_text = self.header_font.render("CG", True, Colors.CREAM)
+            cg_rect = cg_text.get_rect(center=(center_x, center_y + 144))
+            self.screen.blit(cg_text, cg_rect)
             return
         
         # Normal card display (when show_stats=True)
