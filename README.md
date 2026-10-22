@@ -17,6 +17,18 @@ A Top Trumps inspired card game featuring 40 legendary Buddhist figures — play
 - **Card viewer** — browse all 40 cards, sort by any stat, view full rankings 1–40
 - **Near-perfect balance** — 49.4% vs 50.6% win rate, verified by a 10,000-game simulation
 
+## Screenshots
+
+The cover and screenshots from the itch.io store page.
+
+<p align="center"><img src="itch_page/cover_630x500.png" alt="DharmaDuel CG cover image" width="420"></p>
+
+<table>
+  <tr><td align="center"><img src="itch_page/1_your_turn.png" alt="Your turn: pick a stat" width="400"><br>Your turn: pick a stat</td><td align="center"><img src="itch_page/2_round_result.png" alt="Round result" width="400"><br>Round result</td></tr>
+  <tr><td align="center"><img src="itch_page/3_card_viewer.png" alt="Card viewer" width="400"><br>Card viewer</td><td align="center"><img src="itch_page/4_story.png" alt="The story of the Dharma Council" width="400"><br>The story of the Dharma Council</td></tr>
+  <tr><td align="center"><img src="itch_page/5_difficulty.png" alt="Choosing the AI difficulty" width="400"><br>Choosing the AI difficulty</td><td align="center"><img src="itch_page/6_menu.png" alt="Main menu" width="400"><br>Main menu</td></tr>
+</table>
+
 ## Built With
 
 - **Python** — core programming language
