@@ -178,3 +178,33 @@ When viewport tweaking produces inconsistent results, it's a sign the scaling ap
 Session with Claude Code (claude-sonnet-4-6), 29 May 2026. Skills used: `portfolio-update`.
 
 ---
+
+## 22 October 2026 — New itch.io Store Page and a Facebook Post
+
+**Type:** Polish / Marketing
+
+**What I built or did**
+
+The itch.io page only had the card-back logo as a picture, so I gave it a proper cover and six screenshots taken straight from the game: your turn, a round you win, the card viewer, the Dharma Council story, the difficulty menu and the main menu. They're saved in `itch_page/`. The cover puts the "DHARMA DUEL" heading above Mara's card and the card back. Then I shared the game in the itch.io Community Facebook group to ask players for feedback.
+
+**Why I did it this way**
+
+Screenshots are the first thing people judge a game by, and a page with just a logo doesn't show what the game is. I posted in the group rather than on my own feed because the group is full of people who play indie games. Their feedback is what I need to decide what to improve next.
+
+**How We Did It**
+
+1. Wrote a small script that runs the game in the background and saves each screen as a picture
+2. Played a few rounds automatically so the card counters weren't stuck at 20 v 20
+3. Picked the stat that wins the round, so the result screenshot shows a win
+4. Built the cover from the two cards on the table, with the title above
+5. Uploaded everything to itch.io and posted in the Facebook group
+
+**What I learned**
+
+Taking screenshots this way is a good bug check, because you look at every screen closely. I spotted that the "You win!" message sits on top of the "YOUR TURN" line, and that some arrow symbols show as empty boxes because the font can't draw them. They're both small fixes for a future update.
+
+**References / Conversations**
+
+Built with Claude Code: one session covering the screenshot script, the cover and the Facebook post.
+
+---
